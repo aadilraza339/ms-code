@@ -3,8 +3,11 @@
 import './index.css' // Import your CSS file
 
 import React from 'react'
+interface RatingStarProps {
+  rating: number;
+}
 
-const RatingStar = ({ rating }) => {
+const RatingStar: React.FC<RatingStarProps> = ({ rating }) => {
   const renderStars = () => {
     const stars = []
     for (let i = 1; i <= 5; i++) {
