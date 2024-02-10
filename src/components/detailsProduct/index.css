@@ -1,0 +1,40 @@
+.details-card {
+    margin: 0 6rem;
+}
+
+.h2-heading {
+    margin-left: 1rem;
+}
+
+.card-description {
+    margin: 0 0 0.5rem;
+    font-size: 0.8rem;
+}
+.rating,
+.total-rating {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.product-price {
+    gap: 0.2rem;
+}
+
+.product-price .currency{
+    
+}
+
+.product-price .number{
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.details-card .card {
+    box-shadow: none;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

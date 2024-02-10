@@ -1,0 +1,70 @@
+:root {
+  --primay: black;
+  --bg-primay: white;
+
+  --link: #2a0b0b;
+  /* --ikea-font: "Roboto","Open Sans",system-ui,sans-serif!important;
+  font-family: var(--ikea-font) */
+}
+
+
+html {
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+.contact-details {
+  margin-bottom: 20px;
+}
+
+.work-list {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.client-reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom:80px;
+}
+
+.review {
+  width: 30%;
+  padding: 15px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+
+
+.gallery-image {
+  width: 100%; /* Make sure images take 100% of the column width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add border-radius for rounded corners if desired */
+  height: -webkit-fill-available;
+}

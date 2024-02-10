@@ -1,0 +1,16 @@
+/* RatingStar.css */
+
+.rating-stars {
+    display: flex;
+    font-size: 24px;
+    color: #ffd700; /* Set the star color */
+  }
+  
+  .star {
+    margin-right: 5px;
+  }
+  
+  .star-filled {
+    color: #ffd700; /* Set the filled star color */
+  }
+  

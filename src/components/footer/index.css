@@ -1,0 +1,73 @@
+/* Footer.css */
+
+.footer {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+  }
+
+  .footer a { 
+    text-decoration: none;
+    color: rgb(40, 38, 38);
+    font-size: 1rem;
+    gap: 1rem;
+    margin: 1rem 0;
+
+  }
+  .footer a:hover { 
+    text-decoration: underline;
+  }
+  
+  .footer-section {
+    width: 200px;
+  }
+  
+  .footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer li {
+    margin-bottom: 5px;
+  }
+  
+  .social-links {
+    display: flex;
+  }
+  
+  .social-links a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* Add specific styles for each social media icon */
+  .icon-facebook {
+    background-image: url('path/to/facebook-icon.png');
+  }
+  
+  .icon-twitter {
+    background-image: url('path/to/twitter-icon.png');
+  }
+  
+  .icon-instagram {
+    background-image: url('path/to/instagram-icon.png');
+  }
+  
+  /* Add more icon styles as needed */
+  

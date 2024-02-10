@@ -1,0 +1,106 @@
+.header .lable {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+
+/* styles.css or SearchBox.css */
+
+/* Container styling */
+.SearchBox {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+/* Input styling */
+.SearchBox input {
+  padding: 8px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+  background-color: #dcd7d763;
+}
+
+/* Button styling */
+.SearchBox button {
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+.SearchBox button:hover {
+  background-color: #0056b3;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+
+
+}
+
+.icon img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.user div {
+  font-size: 0.9rem;
+  margin-right: 1rem;
+}
+
+.like.icon img {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+}
+
+.product-menu,
+.menu-list,
+.address,
+.address .icon {
+  display: flex;
+  align-items: center;
+}
+.product-menu {
+  margin: 1rem 2rem 0rem 7.1rem;
+  justify-content: space-between;
+}
+.menu-list {
+  font-weight: 500;
+  font-size: 0.9rem;
+  gap: 1rem;
+}
+
+.address {
+  gap: 1rem;
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+.address .icon {
+  gap: 1rem;
+}
